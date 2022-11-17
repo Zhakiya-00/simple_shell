@@ -40,7 +40,7 @@ int _myhistory(info_t *info)
 
  */
 
-int unset_alias(ino_t *info, char *str)
+int unset_alias(info_t *info, char *str)
 
 {
 
@@ -84,7 +84,7 @@ int unset_alias(ino_t *info, char *str)
 
  */
 
-int set_alias(ino_t *info, char *str)
+int set_alias(info_t *info, char *str)
 
 {
 
@@ -164,7 +164,7 @@ int print_alias(list_t *node)
 
  */
 
-int _myalias(ino_t *info)
+int _myalias(info_t *info)
 
 {
 

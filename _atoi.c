@@ -14,7 +14,7 @@
 
  */
 
-int interactive(ino_t *info)
+int interactive(info_t *info)
 
 {
 
